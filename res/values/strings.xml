@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">BLETest</string>
+    <string name="default_data">0.00</string>
+    <string name="default_conn_status">Disconnected</string>
+    <string name="default_device_name">Device : Unknown</string>
+
+</resources>

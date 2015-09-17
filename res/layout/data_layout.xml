@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg_feedback">
+    
+    <TextView 
+        android:id="@+id/data_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="80sp"
+        android:text="@string/default_data"
+        android:textStyle="bold"
+        android:textColor="#ffffff"/>
+    
+    <TextView
+        android:id="@+id/conn_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/default_conn_status"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"/>
+     <TextView 
+        android:id="@+id/device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/data_field"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp"
+        android:text="@string/default_device_name"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"/>
+     <TextView 
+        android:id="@+id/serial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:text="Serialing..."/>
+     <Button 
+        android:id="@+id/start_collect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Waiting for Serial complete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    
+
+</RelativeLayout>
